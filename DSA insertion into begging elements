@@ -1,0 +1,15 @@
+class Insertion into beginning element{
+    public static void main(String[] args) {
+       int a[]={18,33,77,97};
+     int   ele=45;//ele stands for element
+       int b[]=new int[a.length+1];
+       b[0]=ele;
+       for( int i=0;i<a.length;i++){
+           b[i+1]=a[i];
+           }
+           for(int i=0;i<b.length;i++){
+               System.out.println(b[i]);
+           }
+       
+    }
+}
