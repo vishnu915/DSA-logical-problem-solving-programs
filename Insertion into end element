@@ -1,6 +1,6 @@
 class Insertion into end element{
     public static void main(String[] args) {
-       int a[]={18,33,45,77,};
+       int a[]={18,33,45,77};
        int b[]=new int[a.length+1];
        int ele =96;
        b[b.length-1]=ele;
